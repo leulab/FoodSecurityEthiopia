@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Food Security: Ethiopia</title>
+		<meta charset='utf-8' />
+		<meta name='viewport' content='width=device-width,initial-scale=1.0' />
+		<link rel='stylesheet' href='style.css' type="text/css" />
+		<script type="text/javascript" src="highcharts.js"></script>
+		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript" src="papaparse.js"></script>
+		<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="stability.js"></script>
+		
+	</head>
+	<body>
+		<nav>
+			<div id='nav-top'>
+				Food Secrity:Ethiopia
+			</div>
+			<div id='nav-bottom'>
+				<span>= Menu</span>
+				<ul>
+					<li><a href='index.html'>Country Overview</a></li>
+					<li><a href='indicators.html'>Food Secuirty Indicators</a></li>
+				    <li><a href='availability.html'> Availability</a></li>
+				    <li><a href='access.html'>Access</a></li>
+				    <li><a href='utilization.html'>Utilization</a></li>
+				    <li><a href='stability.html'>Stability</a></li>
+				</ul>
+			</div>
+		</nav>
+		<main>
+		<div class="container">
+			<div class="note_left" id="cereal_im_dependency_note">
+			<h4>Cereal import dependency ratio</h4>
+			<p> (percent) </P>
+			</div>
+			<div class="graph_right" id="cereal_im_dependency" ></div>
+		</div>
+		<div class="container">
+			<div class="note_right" id="aerable_land_note">
+			<h4> Percent of arable land equipped for irrigation </h4>
+			<p> (percent) </P>
+			</div>
+			<div class="graph_left" id="aerable_land" ></div>
+		</div>
+		<div class="container">
+			<div class="note_left" id="import_over_total_note">
+			<h4> Value of food imports over total merchandise exports </h4>
+			<p> (percent) </P>
+			</div>
+			<div class="graph_right" id="import_over_total" ></div>
+		</div>
+		<div class="container">
+			<div class="note_right" id="political_stability_note">
+			<h4> Political stability and absence of violence/terrorism</h4>
+			<p> (index) </P>
+			</div>
+			<div class="graph_left" id="political_stability" ></div>
+		</div>
+		<div class="container">
+			<div class="note_left" id="domestic_food_volatility_note">
+			<h4> Domestic food price volatility</h4>
+			<p> (index) </P>
+			</div>
+			<div class="graph_right" id="domestic_food_volatility" ></div>
+		</div>
+		<div class="container">
+			<div class="note_right" id="per_capita_food_volitility_note">
+			<h4> Per capita food production variability</h4>
+			<p> (Thousand $ per capita) </P>
+			</div>
+			<div class="graph_left" id="per_capita_food_volitility" ></div>
+		</div>
+		<div class="container">
+			<div class="note_left" id="food_variability_note">
+			<h4> Per capita food supply variability</h4>
+			<p> (kcal/person/day) </P>
+			</div>
+			<div class="graph_right" id="food_variability" ></div>
+		</div>
+		</main>
+		<footer>
+			Copyright &copy; Leul A. Challa, Compulsory for Master's Thesis at CULS. Feb 2017
+		</footer>
+	</body>
+</html>  

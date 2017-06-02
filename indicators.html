@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Food Security: Ethiopia</title>
+		<meta charset='utf-8' />
+		<meta name='viewport' content='width=device-width,initial-scale=1.0' />
+		<link rel='stylesheet' href='style.css' type="text/css" />
+		<script type="text/javascript" src="highcharts.js"></script>
+		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript" src="papaparse.js"></script>
+		<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="indicators.js"></script>
+	</head>
+	<body>
+		<nav>
+			<div id='nav-top'>
+				Food Secrity:Ethiopia
+			</div>
+			<div id='nav-bottom'>
+				<span>= Menu</span>
+				<ul>
+					<li><a href='index.html'>Country Overview</a></li>
+					<li><a href='indicators.html'>Food Secuirty Indicators</a></li>
+				    <li><a href='availability.html'> Availability</a></li>
+				    <li><a href='access.html'>Access</a></li>
+				    <li><a href='utilization.html'>Utilization</a></li>
+				    <li><a href='stability.html'>Stability</a></li>
+				</ul>
+			</div>
+		</nav>
+		<main>
+			<div class="container">
+			<div class="note_left" id="inflationr_note">
+			<h4>Inflation</h4>
+			<p>Inflation is the rate of change of prices in an economy. It is measured
+			by calculating the annual growth rate of the GDP implicit deflator, which
+			is the ratio of GDP in current local currency to GDP in constant local currency.  </P>
+			</div>
+			<div class="graph_right" id="inflation" ></div>
+		</div>
+		<div class="container">
+			<div class="note_right" id="access_sanitation_note">
+			<h4> Agriculture, Value Added (% of GDP) </h4>
+			<p> Agriculture value added is the net output of the agriculture sector,
+			including forestry, hunting and fishing, and cultivation of crops and livestock 
+			production, after adding up all outputs and subtracting intermediate inputs. Deductions 
+			for depreciation of fabricated assets and depletion and degradation of natural resources
+			are not included in the calculation.
+			</p>
+			</div>
+			<div class="graph_left" id="agriculture_value" ></div>
+		</div>
+		<div class="container">
+			<div class="note_left" id="population_under_note">
+			<h4>Population Undernorished</h4>
+			<p> Population undernourished is the percentage of a country's population that consistently
+			has a food intake that is less than a minimum dietary energy consumption required for maintaining
+			health and performing light physical activity. This requirement varies by country, and is calculated
+			by looking at the amount of food available in a country and a measure of inequality in distribution
+			developed using household income and expenditure surveys. The minimum requirement for dietary
+			energy is usually between 1750 and 2030 kilocalories per person per day. The data is expressed
+			as a country's average over a 3-year period.
+			</P>
+			</div>
+			<div class="graph_right" id="population_undernorished" ></div>
+		</div>
+		</main>
+		<footer>
+			Copyright &copy; Leul A. Challa, Compulsory for Master's Thesis at CULS. Feb 2017
+		</footer>
+	</body>
+</html>
